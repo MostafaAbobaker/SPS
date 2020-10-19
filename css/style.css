@@ -312,6 +312,7 @@ section.contact-us .box .image::after {
   left: -3px;
   border-radius: 70% 30% 30% 70%/30% 30% 70% 70%;
   z-index: 1;
+  transition: all 0.4s ease-in-out;
 }
 .social-media ul.list-unstyled li a.facebook {
   background-color: #3B5998;
@@ -348,6 +349,9 @@ section.contact-us .box .image::after {
 }
 .social-media ul.list-unstyled li a.snapchat::after {
   background-color: rgba(246, 224, 6, 0.5);
+}
+.social-media ul.list-unstyled li a:hover::after {
+  transform: rotate(-385deg);
 }
 
 /* End  social-media */
