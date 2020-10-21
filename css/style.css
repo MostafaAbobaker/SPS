@@ -217,7 +217,7 @@ nav.navbar.home .nav-item.active .nav-link::after {
   padding: 80px 0;
   transform: skew(0deg, -5deg);
   -webkit-transform: skew(0deg, -5deg);
-  background: url(../../img/texture_dark.jpg);
+  background: url(../img/texture_dark.jpg);
 }
 .service h2 {
   transform: skew(0deg, 5deg);
