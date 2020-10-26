@@ -635,7 +635,7 @@ section.Video .video-info a.icon:hover::before {
 }
 @media (max-width: 767.98px) {
   .distinguishes {
-    padding-top: 120px;
+    padding-top: 180px;
   }
 }
 .distinguishes::after {
@@ -656,6 +656,11 @@ section.Video .video-info a.icon:hover::before {
 }
 .distinguishes .card {
   position: relative;
+}
+@media (max-width: 767.98px) {
+  .distinguishes .card {
+    margin-bottom: 80px;
+  }
 }
 .distinguishes .card .image {
   width: 80%;
